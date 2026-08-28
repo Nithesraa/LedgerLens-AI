@@ -1,0 +1,35 @@
+# Python bytecode and test output
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.pytest-tmp/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# IDE and operating-system metadata
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local runtime output (deterministic source data remains versionable)
+logs/
+runtime/
+*.log
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.eslintcache

@@ -1,0 +1,5002 @@
+[
+  {
+    "case_id": "VALIDATION_CASE_000001",
+    "expected_action": "MONITOR",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "TIMING_LAG",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000001",
+    "primary_txn_id": "RZP_VALIDATION_000001",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000002",
+    "expected_action": "ESCALATE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "MISSING_SETTLEMENT",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000002",
+    "primary_txn_id": "RZP_VALIDATION_000002",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000003",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000003",
+    "primary_txn_id": "RZP_VALIDATION_000003",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000004",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000004",
+    "primary_txn_id": "RZP_VALIDATION_000004",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000005",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000005",
+    "primary_txn_id": "RZP_VALIDATION_000005",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000006",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000006",
+    "primary_txn_id": "RZP_VALIDATION_000006",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000007",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000007",
+    "primary_txn_id": "RZP_VALIDATION_000007",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000008",
+    "expected_action": "ESCALATE",
+    "expected_route": "AI_INVESTIGATOR",
+    "injected_type": "FEE_DEDUCTION",
+    "is_ambiguous": true,
+    "operational_reference_id": "RZP_VALIDATION_000008",
+    "primary_txn_id": "RZP_VALIDATION_000008",
+    "sub_type": "LEDGER_MISMATCH"
+  },
+  {
+    "case_id": "VALIDATION_CASE_000009",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000009",
+    "primary_txn_id": "RZP_VALIDATION_000009",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000010",
+    "expected_action": "ESCALATE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "DUPLICATE",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000010",
+    "primary_txn_id": "RZP_VALIDATION_000010",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000011",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000011",
+    "primary_txn_id": "RZP_VALIDATION_000011",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000012",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000012",
+    "primary_txn_id": "RZP_VALIDATION_000012",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000013",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000013",
+    "primary_txn_id": "RZP_VALIDATION_000013",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000014",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000014",
+    "primary_txn_id": "RZP_VALIDATION_000014",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000015",
+    "expected_action": "ESCALATE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "DUPLICATE",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000015",
+    "primary_txn_id": "RZP_VALIDATION_000015",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000016",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000016",
+    "primary_txn_id": "RZP_VALIDATION_000016",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000017",
+    "expected_action": "MONITOR",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "TIMING_LAG",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000017",
+    "primary_txn_id": "RZP_VALIDATION_000017",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000018",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000018",
+    "primary_txn_id": "RZP_VALIDATION_000018",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000019",
+    "expected_action": "ESCALATE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "MISSING_SETTLEMENT",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000019",
+    "primary_txn_id": "RZP_VALIDATION_000019",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000020",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "FEE_DEDUCTION",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000020",
+    "primary_txn_id": "RZP_VALIDATION_000020",
+    "sub_type": "STANDARD_FEE"
+  },
+  {
+    "case_id": "VALIDATION_CASE_000021",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000021",
+    "primary_txn_id": "RZP_VALIDATION_000021",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000022",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000022",
+    "primary_txn_id": "RZP_VALIDATION_000022",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000023",
+    "expected_action": "MONITOR",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "TIMING_LAG",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000023",
+    "primary_txn_id": "RZP_VALIDATION_000023",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000024",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000024",
+    "primary_txn_id": "RZP_VALIDATION_000024",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000025",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "FEE_DEDUCTION",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000025",
+    "primary_txn_id": "RZP_VALIDATION_000025",
+    "sub_type": "STANDARD_FEE"
+  },
+  {
+    "case_id": "VALIDATION_CASE_000026",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "FEE_DEDUCTION",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000026",
+    "primary_txn_id": "RZP_VALIDATION_000026",
+    "sub_type": "STANDARD_FEE"
+  },
+  {
+    "case_id": "VALIDATION_CASE_000027",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "FEE_DEDUCTION",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000027",
+    "primary_txn_id": "RZP_VALIDATION_000027",
+    "sub_type": "STANDARD_FEE"
+  },
+  {
+    "case_id": "VALIDATION_CASE_000028",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000028",
+    "primary_txn_id": "RZP_VALIDATION_000028",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000029",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000029",
+    "primary_txn_id": "RZP_VALIDATION_000029",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000030",
+    "expected_action": "ESCALATE",
+    "expected_route": "AI_INVESTIGATOR",
+    "injected_type": "FEE_DEDUCTION",
+    "is_ambiguous": true,
+    "operational_reference_id": "RZP_VALIDATION_000030",
+    "primary_txn_id": "RZP_VALIDATION_000030",
+    "sub_type": "LEDGER_MISMATCH"
+  },
+  {
+    "case_id": "VALIDATION_CASE_000031",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000031",
+    "primary_txn_id": "RZP_VALIDATION_000031",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000032",
+    "expected_action": "ESCALATE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "MISSING_SETTLEMENT",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000032",
+    "primary_txn_id": "RZP_VALIDATION_000032",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000033",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000033",
+    "primary_txn_id": "RZP_VALIDATION_000033",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000034",
+    "expected_action": "MONITOR",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "TIMING_LAG",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000034",
+    "primary_txn_id": "RZP_VALIDATION_000034",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000035",
+    "expected_action": "ESCALATE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "UNKNOWN_TRANSACTION",
+    "is_ambiguous": false,
+    "operational_reference_id": "UNK_VALIDATION_000035",
+    "primary_txn_id": null,
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000036",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000036",
+    "primary_txn_id": "RZP_VALIDATION_000036",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000037",
+    "expected_action": "ESCALATE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "MISSING_SETTLEMENT",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000037",
+    "primary_txn_id": "RZP_VALIDATION_000037",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000038",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000038",
+    "primary_txn_id": "RZP_VALIDATION_000038",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000039",
+    "expected_action": "ESCALATE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "UNKNOWN_TRANSACTION",
+    "is_ambiguous": false,
+    "operational_reference_id": "UNK_VALIDATION_000039",
+    "primary_txn_id": null,
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000040",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "AI_INVESTIGATOR",
+    "injected_type": "FEE_DEDUCTION",
+    "is_ambiguous": true,
+    "operational_reference_id": "RZP_VALIDATION_000040",
+    "primary_txn_id": "RZP_VALIDATION_000040",
+    "sub_type": "REFUND_ADJUSTMENT"
+  },
+  {
+    "case_id": "VALIDATION_CASE_000041",
+    "expected_action": "ESCALATE",
+    "expected_route": "AI_INVESTIGATOR",
+    "injected_type": "FEE_DEDUCTION",
+    "is_ambiguous": true,
+    "operational_reference_id": "RZP_VALIDATION_000041",
+    "primary_txn_id": "RZP_VALIDATION_000041",
+    "sub_type": "LEDGER_MISMATCH"
+  },
+  {
+    "case_id": "VALIDATION_CASE_000042",
+    "expected_action": "ESCALATE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "MISSING_SETTLEMENT",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000042",
+    "primary_txn_id": "RZP_VALIDATION_000042",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000043",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000043",
+    "primary_txn_id": "RZP_VALIDATION_000043",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000044",
+    "expected_action": "ESCALATE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "MISSING_SETTLEMENT",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000044",
+    "primary_txn_id": "RZP_VALIDATION_000044",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000045",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000045",
+    "primary_txn_id": "RZP_VALIDATION_000045",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000046",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000046",
+    "primary_txn_id": "RZP_VALIDATION_000046",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000047",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000047",
+    "primary_txn_id": "RZP_VALIDATION_000047",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000048",
+    "expected_action": "MONITOR",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "TIMING_LAG",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000048",
+    "primary_txn_id": "RZP_VALIDATION_000048",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000049",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000049",
+    "primary_txn_id": "RZP_VALIDATION_000049",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000050",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000050",
+    "primary_txn_id": "RZP_VALIDATION_000050",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000051",
+    "expected_action": "ESCALATE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "DUPLICATE",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000051",
+    "primary_txn_id": "RZP_VALIDATION_000051",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000052",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000052",
+    "primary_txn_id": "RZP_VALIDATION_000052",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000053",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000053",
+    "primary_txn_id": "RZP_VALIDATION_000053",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000054",
+    "expected_action": "ESCALATE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "MISSING_SETTLEMENT",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000054",
+    "primary_txn_id": "RZP_VALIDATION_000054",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000055",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000055",
+    "primary_txn_id": "RZP_VALIDATION_000055",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000056",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000056",
+    "primary_txn_id": "RZP_VALIDATION_000056",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000057",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000057",
+    "primary_txn_id": "RZP_VALIDATION_000057",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000058",
+    "expected_action": "MONITOR",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "TIMING_LAG",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000058",
+    "primary_txn_id": "RZP_VALIDATION_000058",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000059",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000059",
+    "primary_txn_id": "RZP_VALIDATION_000059",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000060",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000060",
+    "primary_txn_id": "RZP_VALIDATION_000060",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000061",
+    "expected_action": "ESCALATE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "UNKNOWN_TRANSACTION",
+    "is_ambiguous": false,
+    "operational_reference_id": "UNK_VALIDATION_000061",
+    "primary_txn_id": null,
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000062",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000062",
+    "primary_txn_id": "RZP_VALIDATION_000062",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000063",
+    "expected_action": "ESCALATE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "MISSING_SETTLEMENT",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000063",
+    "primary_txn_id": "RZP_VALIDATION_000063",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000064",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000064",
+    "primary_txn_id": "RZP_VALIDATION_000064",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000065",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000065",
+    "primary_txn_id": "RZP_VALIDATION_000065",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000066",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "FEE_DEDUCTION",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000066",
+    "primary_txn_id": "RZP_VALIDATION_000066",
+    "sub_type": "STANDARD_FEE"
+  },
+  {
+    "case_id": "VALIDATION_CASE_000067",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000067",
+    "primary_txn_id": "RZP_VALIDATION_000067",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000068",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000068",
+    "primary_txn_id": "RZP_VALIDATION_000068",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000069",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "AI_INVESTIGATOR",
+    "injected_type": "FEE_DEDUCTION",
+    "is_ambiguous": true,
+    "operational_reference_id": "RZP_VALIDATION_000069",
+    "primary_txn_id": "RZP_VALIDATION_000069",
+    "sub_type": "REFUND_ADJUSTMENT"
+  },
+  {
+    "case_id": "VALIDATION_CASE_000070",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000070",
+    "primary_txn_id": "RZP_VALIDATION_000070",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000071",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000071",
+    "primary_txn_id": "RZP_VALIDATION_000071",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000072",
+    "expected_action": "ESCALATE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "UNKNOWN_TRANSACTION",
+    "is_ambiguous": false,
+    "operational_reference_id": "UNK_VALIDATION_000072",
+    "primary_txn_id": null,
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000073",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000073",
+    "primary_txn_id": "RZP_VALIDATION_000073",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000074",
+    "expected_action": "ESCALATE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "DUPLICATE",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000074",
+    "primary_txn_id": "RZP_VALIDATION_000074",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000075",
+    "expected_action": "MONITOR",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "TIMING_LAG",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000075",
+    "primary_txn_id": "RZP_VALIDATION_000075",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000076",
+    "expected_action": "ESCALATE",
+    "expected_route": "AI_INVESTIGATOR",
+    "injected_type": "FEE_DEDUCTION",
+    "is_ambiguous": true,
+    "operational_reference_id": "RZP_VALIDATION_000076",
+    "primary_txn_id": "RZP_VALIDATION_000076",
+    "sub_type": "LEDGER_MISMATCH"
+  },
+  {
+    "case_id": "VALIDATION_CASE_000077",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000077",
+    "primary_txn_id": "RZP_VALIDATION_000077",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000078",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000078",
+    "primary_txn_id": "RZP_VALIDATION_000078",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000079",
+    "expected_action": "ESCALATE",
+    "expected_route": "AI_INVESTIGATOR",
+    "injected_type": "FEE_DEDUCTION",
+    "is_ambiguous": true,
+    "operational_reference_id": "RZP_VALIDATION_000079",
+    "primary_txn_id": "RZP_VALIDATION_000079",
+    "sub_type": "LEDGER_MISMATCH"
+  },
+  {
+    "case_id": "VALIDATION_CASE_000080",
+    "expected_action": "ESCALATE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "UNKNOWN_TRANSACTION",
+    "is_ambiguous": false,
+    "operational_reference_id": "UNK_VALIDATION_000080",
+    "primary_txn_id": null,
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000081",
+    "expected_action": "ESCALATE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "UNKNOWN_TRANSACTION",
+    "is_ambiguous": false,
+    "operational_reference_id": "UNK_VALIDATION_000081",
+    "primary_txn_id": null,
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000082",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000082",
+    "primary_txn_id": "RZP_VALIDATION_000082",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000083",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000083",
+    "primary_txn_id": "RZP_VALIDATION_000083",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000084",
+    "expected_action": "MONITOR",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "TIMING_LAG",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000084",
+    "primary_txn_id": "RZP_VALIDATION_000084",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000085",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000085",
+    "primary_txn_id": "RZP_VALIDATION_000085",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000086",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000086",
+    "primary_txn_id": "RZP_VALIDATION_000086",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000087",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000087",
+    "primary_txn_id": "RZP_VALIDATION_000087",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000088",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "FEE_DEDUCTION",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000088",
+    "primary_txn_id": "RZP_VALIDATION_000088",
+    "sub_type": "STANDARD_FEE"
+  },
+  {
+    "case_id": "VALIDATION_CASE_000089",
+    "expected_action": "ESCALATE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "DUPLICATE",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000089",
+    "primary_txn_id": "RZP_VALIDATION_000089",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000090",
+    "expected_action": "ESCALATE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "MISSING_SETTLEMENT",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000090",
+    "primary_txn_id": "RZP_VALIDATION_000090",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000091",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000091",
+    "primary_txn_id": "RZP_VALIDATION_000091",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000092",
+    "expected_action": "ESCALATE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "MISSING_SETTLEMENT",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000092",
+    "primary_txn_id": "RZP_VALIDATION_000092",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000093",
+    "expected_action": "MONITOR",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "TIMING_LAG",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000093",
+    "primary_txn_id": "RZP_VALIDATION_000093",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000094",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000094",
+    "primary_txn_id": "RZP_VALIDATION_000094",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000095",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000095",
+    "primary_txn_id": "RZP_VALIDATION_000095",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000096",
+    "expected_action": "ESCALATE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "MISSING_SETTLEMENT",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000096",
+    "primary_txn_id": "RZP_VALIDATION_000096",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000097",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000097",
+    "primary_txn_id": "RZP_VALIDATION_000097",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000098",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000098",
+    "primary_txn_id": "RZP_VALIDATION_000098",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000099",
+    "expected_action": "MONITOR",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "TIMING_LAG",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000099",
+    "primary_txn_id": "RZP_VALIDATION_000099",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000100",
+    "expected_action": "ESCALATE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "MISSING_SETTLEMENT",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000100",
+    "primary_txn_id": "RZP_VALIDATION_000100",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000101",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000101",
+    "primary_txn_id": "RZP_VALIDATION_000101",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000102",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000102",
+    "primary_txn_id": "RZP_VALIDATION_000102",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000103",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000103",
+    "primary_txn_id": "RZP_VALIDATION_000103",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000104",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000104",
+    "primary_txn_id": "RZP_VALIDATION_000104",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000105",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000105",
+    "primary_txn_id": "RZP_VALIDATION_000105",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000106",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000106",
+    "primary_txn_id": "RZP_VALIDATION_000106",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000107",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000107",
+    "primary_txn_id": "RZP_VALIDATION_000107",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000108",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000108",
+    "primary_txn_id": "RZP_VALIDATION_000108",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000109",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000109",
+    "primary_txn_id": "RZP_VALIDATION_000109",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000110",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000110",
+    "primary_txn_id": "RZP_VALIDATION_000110",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000111",
+    "expected_action": "ESCALATE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "MISSING_SETTLEMENT",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000111",
+    "primary_txn_id": "RZP_VALIDATION_000111",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000112",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000112",
+    "primary_txn_id": "RZP_VALIDATION_000112",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000113",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000113",
+    "primary_txn_id": "RZP_VALIDATION_000113",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000114",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000114",
+    "primary_txn_id": "RZP_VALIDATION_000114",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000115",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000115",
+    "primary_txn_id": "RZP_VALIDATION_000115",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000116",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000116",
+    "primary_txn_id": "RZP_VALIDATION_000116",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000117",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000117",
+    "primary_txn_id": "RZP_VALIDATION_000117",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000118",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000118",
+    "primary_txn_id": "RZP_VALIDATION_000118",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000119",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000119",
+    "primary_txn_id": "RZP_VALIDATION_000119",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000120",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000120",
+    "primary_txn_id": "RZP_VALIDATION_000120",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000121",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000121",
+    "primary_txn_id": "RZP_VALIDATION_000121",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000122",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000122",
+    "primary_txn_id": "RZP_VALIDATION_000122",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000123",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000123",
+    "primary_txn_id": "RZP_VALIDATION_000123",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000124",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000124",
+    "primary_txn_id": "RZP_VALIDATION_000124",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000125",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000125",
+    "primary_txn_id": "RZP_VALIDATION_000125",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000126",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "AI_INVESTIGATOR",
+    "injected_type": "FEE_DEDUCTION",
+    "is_ambiguous": true,
+    "operational_reference_id": "RZP_VALIDATION_000126",
+    "primary_txn_id": "RZP_VALIDATION_000126",
+    "sub_type": "REFUND_ADJUSTMENT"
+  },
+  {
+    "case_id": "VALIDATION_CASE_000127",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000127",
+    "primary_txn_id": "RZP_VALIDATION_000127",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000128",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000128",
+    "primary_txn_id": "RZP_VALIDATION_000128",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000129",
+    "expected_action": "ESCALATE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "MISSING_SETTLEMENT",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000129",
+    "primary_txn_id": "RZP_VALIDATION_000129",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000130",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "FEE_DEDUCTION",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000130",
+    "primary_txn_id": "RZP_VALIDATION_000130",
+    "sub_type": "STANDARD_FEE"
+  },
+  {
+    "case_id": "VALIDATION_CASE_000131",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "FEE_DEDUCTION",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000131",
+    "primary_txn_id": "RZP_VALIDATION_000131",
+    "sub_type": "STANDARD_FEE"
+  },
+  {
+    "case_id": "VALIDATION_CASE_000132",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000132",
+    "primary_txn_id": "RZP_VALIDATION_000132",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000133",
+    "expected_action": "MONITOR",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "TIMING_LAG",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000133",
+    "primary_txn_id": "RZP_VALIDATION_000133",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000134",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000134",
+    "primary_txn_id": "RZP_VALIDATION_000134",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000135",
+    "expected_action": "ESCALATE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "MISSING_SETTLEMENT",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000135",
+    "primary_txn_id": "RZP_VALIDATION_000135",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000136",
+    "expected_action": "MONITOR",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "TIMING_LAG",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000136",
+    "primary_txn_id": "RZP_VALIDATION_000136",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000137",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000137",
+    "primary_txn_id": "RZP_VALIDATION_000137",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000138",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000138",
+    "primary_txn_id": "RZP_VALIDATION_000138",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000139",
+    "expected_action": "ESCALATE",
+    "expected_route": "AI_INVESTIGATOR",
+    "injected_type": "FEE_DEDUCTION",
+    "is_ambiguous": true,
+    "operational_reference_id": "RZP_VALIDATION_000139",
+    "primary_txn_id": "RZP_VALIDATION_000139",
+    "sub_type": "LEDGER_MISMATCH"
+  },
+  {
+    "case_id": "VALIDATION_CASE_000140",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000140",
+    "primary_txn_id": "RZP_VALIDATION_000140",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000141",
+    "expected_action": "MONITOR",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "TIMING_LAG",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000141",
+    "primary_txn_id": "RZP_VALIDATION_000141",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000142",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000142",
+    "primary_txn_id": "RZP_VALIDATION_000142",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000143",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000143",
+    "primary_txn_id": "RZP_VALIDATION_000143",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000144",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000144",
+    "primary_txn_id": "RZP_VALIDATION_000144",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000145",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "FEE_DEDUCTION",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000145",
+    "primary_txn_id": "RZP_VALIDATION_000145",
+    "sub_type": "STANDARD_FEE"
+  },
+  {
+    "case_id": "VALIDATION_CASE_000146",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000146",
+    "primary_txn_id": "RZP_VALIDATION_000146",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000147",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000147",
+    "primary_txn_id": "RZP_VALIDATION_000147",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000148",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000148",
+    "primary_txn_id": "RZP_VALIDATION_000148",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000149",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000149",
+    "primary_txn_id": "RZP_VALIDATION_000149",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000150",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000150",
+    "primary_txn_id": "RZP_VALIDATION_000150",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000151",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000151",
+    "primary_txn_id": "RZP_VALIDATION_000151",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000152",
+    "expected_action": "MONITOR",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "TIMING_LAG",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000152",
+    "primary_txn_id": "RZP_VALIDATION_000152",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000153",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000153",
+    "primary_txn_id": "RZP_VALIDATION_000153",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000154",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000154",
+    "primary_txn_id": "RZP_VALIDATION_000154",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000155",
+    "expected_action": "ESCALATE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "DUPLICATE",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000155",
+    "primary_txn_id": "RZP_VALIDATION_000155",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000156",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000156",
+    "primary_txn_id": "RZP_VALIDATION_000156",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000157",
+    "expected_action": "ESCALATE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "DUPLICATE",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000157",
+    "primary_txn_id": "RZP_VALIDATION_000157",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000158",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000158",
+    "primary_txn_id": "RZP_VALIDATION_000158",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000159",
+    "expected_action": "ESCALATE",
+    "expected_route": "AI_INVESTIGATOR",
+    "injected_type": "FEE_DEDUCTION",
+    "is_ambiguous": true,
+    "operational_reference_id": "RZP_VALIDATION_000159",
+    "primary_txn_id": "RZP_VALIDATION_000159",
+    "sub_type": "LEDGER_MISMATCH"
+  },
+  {
+    "case_id": "VALIDATION_CASE_000160",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000160",
+    "primary_txn_id": "RZP_VALIDATION_000160",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000161",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000161",
+    "primary_txn_id": "RZP_VALIDATION_000161",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000162",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000162",
+    "primary_txn_id": "RZP_VALIDATION_000162",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000163",
+    "expected_action": "ESCALATE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "UNKNOWN_TRANSACTION",
+    "is_ambiguous": false,
+    "operational_reference_id": "UNK_VALIDATION_000163",
+    "primary_txn_id": null,
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000164",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000164",
+    "primary_txn_id": "RZP_VALIDATION_000164",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000165",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000165",
+    "primary_txn_id": "RZP_VALIDATION_000165",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000166",
+    "expected_action": "MONITOR",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "TIMING_LAG",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000166",
+    "primary_txn_id": "RZP_VALIDATION_000166",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000167",
+    "expected_action": "MONITOR",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "TIMING_LAG",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000167",
+    "primary_txn_id": "RZP_VALIDATION_000167",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000168",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "AI_INVESTIGATOR",
+    "injected_type": "FEE_DEDUCTION",
+    "is_ambiguous": true,
+    "operational_reference_id": "RZP_VALIDATION_000168",
+    "primary_txn_id": "RZP_VALIDATION_000168",
+    "sub_type": "REFUND_ADJUSTMENT"
+  },
+  {
+    "case_id": "VALIDATION_CASE_000169",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000169",
+    "primary_txn_id": "RZP_VALIDATION_000169",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000170",
+    "expected_action": "MONITOR",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "TIMING_LAG",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000170",
+    "primary_txn_id": "RZP_VALIDATION_000170",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000171",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000171",
+    "primary_txn_id": "RZP_VALIDATION_000171",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000172",
+    "expected_action": "MONITOR",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "TIMING_LAG",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000172",
+    "primary_txn_id": "RZP_VALIDATION_000172",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000173",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000173",
+    "primary_txn_id": "RZP_VALIDATION_000173",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000174",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000174",
+    "primary_txn_id": "RZP_VALIDATION_000174",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000175",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000175",
+    "primary_txn_id": "RZP_VALIDATION_000175",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000176",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000176",
+    "primary_txn_id": "RZP_VALIDATION_000176",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000177",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000177",
+    "primary_txn_id": "RZP_VALIDATION_000177",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000178",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000178",
+    "primary_txn_id": "RZP_VALIDATION_000178",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000179",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000179",
+    "primary_txn_id": "RZP_VALIDATION_000179",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000180",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000180",
+    "primary_txn_id": "RZP_VALIDATION_000180",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000181",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000181",
+    "primary_txn_id": "RZP_VALIDATION_000181",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000182",
+    "expected_action": "ESCALATE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "MISSING_SETTLEMENT",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000182",
+    "primary_txn_id": "RZP_VALIDATION_000182",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000183",
+    "expected_action": "ESCALATE",
+    "expected_route": "AI_INVESTIGATOR",
+    "injected_type": "FEE_DEDUCTION",
+    "is_ambiguous": true,
+    "operational_reference_id": "RZP_VALIDATION_000183",
+    "primary_txn_id": "RZP_VALIDATION_000183",
+    "sub_type": "LEDGER_MISMATCH"
+  },
+  {
+    "case_id": "VALIDATION_CASE_000184",
+    "expected_action": "MONITOR",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "TIMING_LAG",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000184",
+    "primary_txn_id": "RZP_VALIDATION_000184",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000185",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000185",
+    "primary_txn_id": "RZP_VALIDATION_000185",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000186",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000186",
+    "primary_txn_id": "RZP_VALIDATION_000186",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000187",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000187",
+    "primary_txn_id": "RZP_VALIDATION_000187",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000188",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000188",
+    "primary_txn_id": "RZP_VALIDATION_000188",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000189",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000189",
+    "primary_txn_id": "RZP_VALIDATION_000189",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000190",
+    "expected_action": "ESCALATE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "MISSING_SETTLEMENT",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000190",
+    "primary_txn_id": "RZP_VALIDATION_000190",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000191",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000191",
+    "primary_txn_id": "RZP_VALIDATION_000191",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000192",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000192",
+    "primary_txn_id": "RZP_VALIDATION_000192",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000193",
+    "expected_action": "MONITOR",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "TIMING_LAG",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000193",
+    "primary_txn_id": "RZP_VALIDATION_000193",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000194",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000194",
+    "primary_txn_id": "RZP_VALIDATION_000194",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000195",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000195",
+    "primary_txn_id": "RZP_VALIDATION_000195",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000196",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000196",
+    "primary_txn_id": "RZP_VALIDATION_000196",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000197",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000197",
+    "primary_txn_id": "RZP_VALIDATION_000197",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000198",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000198",
+    "primary_txn_id": "RZP_VALIDATION_000198",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000199",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000199",
+    "primary_txn_id": "RZP_VALIDATION_000199",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000200",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000200",
+    "primary_txn_id": "RZP_VALIDATION_000200",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000201",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000201",
+    "primary_txn_id": "RZP_VALIDATION_000201",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000202",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "AI_INVESTIGATOR",
+    "injected_type": "FEE_DEDUCTION",
+    "is_ambiguous": true,
+    "operational_reference_id": "RZP_VALIDATION_000202",
+    "primary_txn_id": "RZP_VALIDATION_000202",
+    "sub_type": "REFUND_ADJUSTMENT"
+  },
+  {
+    "case_id": "VALIDATION_CASE_000203",
+    "expected_action": "MONITOR",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "TIMING_LAG",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000203",
+    "primary_txn_id": "RZP_VALIDATION_000203",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000204",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000204",
+    "primary_txn_id": "RZP_VALIDATION_000204",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000205",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000205",
+    "primary_txn_id": "RZP_VALIDATION_000205",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000206",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000206",
+    "primary_txn_id": "RZP_VALIDATION_000206",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000207",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "AI_INVESTIGATOR",
+    "injected_type": "FEE_DEDUCTION",
+    "is_ambiguous": true,
+    "operational_reference_id": "RZP_VALIDATION_000207",
+    "primary_txn_id": "RZP_VALIDATION_000207",
+    "sub_type": "REFUND_ADJUSTMENT"
+  },
+  {
+    "case_id": "VALIDATION_CASE_000208",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000208",
+    "primary_txn_id": "RZP_VALIDATION_000208",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000209",
+    "expected_action": "MONITOR",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "TIMING_LAG",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000209",
+    "primary_txn_id": "RZP_VALIDATION_000209",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000210",
+    "expected_action": "ESCALATE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "DUPLICATE",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000210",
+    "primary_txn_id": "RZP_VALIDATION_000210",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000211",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000211",
+    "primary_txn_id": "RZP_VALIDATION_000211",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000212",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000212",
+    "primary_txn_id": "RZP_VALIDATION_000212",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000213",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000213",
+    "primary_txn_id": "RZP_VALIDATION_000213",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000214",
+    "expected_action": "ESCALATE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "UNKNOWN_TRANSACTION",
+    "is_ambiguous": false,
+    "operational_reference_id": "UNK_VALIDATION_000214",
+    "primary_txn_id": null,
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000215",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000215",
+    "primary_txn_id": "RZP_VALIDATION_000215",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000216",
+    "expected_action": "ESCALATE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "UNKNOWN_TRANSACTION",
+    "is_ambiguous": false,
+    "operational_reference_id": "UNK_VALIDATION_000216",
+    "primary_txn_id": null,
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000217",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "FEE_DEDUCTION",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000217",
+    "primary_txn_id": "RZP_VALIDATION_000217",
+    "sub_type": "STANDARD_FEE"
+  },
+  {
+    "case_id": "VALIDATION_CASE_000218",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000218",
+    "primary_txn_id": "RZP_VALIDATION_000218",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000219",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000219",
+    "primary_txn_id": "RZP_VALIDATION_000219",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000220",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000220",
+    "primary_txn_id": "RZP_VALIDATION_000220",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000221",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000221",
+    "primary_txn_id": "RZP_VALIDATION_000221",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000222",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000222",
+    "primary_txn_id": "RZP_VALIDATION_000222",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000223",
+    "expected_action": "ESCALATE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "DUPLICATE",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000223",
+    "primary_txn_id": "RZP_VALIDATION_000223",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000224",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "FEE_DEDUCTION",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000224",
+    "primary_txn_id": "RZP_VALIDATION_000224",
+    "sub_type": "STANDARD_FEE"
+  },
+  {
+    "case_id": "VALIDATION_CASE_000225",
+    "expected_action": "MONITOR",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "TIMING_LAG",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000225",
+    "primary_txn_id": "RZP_VALIDATION_000225",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000226",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000226",
+    "primary_txn_id": "RZP_VALIDATION_000226",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000227",
+    "expected_action": "MONITOR",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "TIMING_LAG",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000227",
+    "primary_txn_id": "RZP_VALIDATION_000227",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000228",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000228",
+    "primary_txn_id": "RZP_VALIDATION_000228",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000229",
+    "expected_action": "ESCALATE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "DUPLICATE",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000229",
+    "primary_txn_id": "RZP_VALIDATION_000229",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000230",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000230",
+    "primary_txn_id": "RZP_VALIDATION_000230",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000231",
+    "expected_action": "MONITOR",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "TIMING_LAG",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000231",
+    "primary_txn_id": "RZP_VALIDATION_000231",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000232",
+    "expected_action": "MONITOR",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "TIMING_LAG",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000232",
+    "primary_txn_id": "RZP_VALIDATION_000232",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000233",
+    "expected_action": "MONITOR",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "TIMING_LAG",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000233",
+    "primary_txn_id": "RZP_VALIDATION_000233",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000234",
+    "expected_action": "ESCALATE",
+    "expected_route": "AI_INVESTIGATOR",
+    "injected_type": "FEE_DEDUCTION",
+    "is_ambiguous": true,
+    "operational_reference_id": "RZP_VALIDATION_000234",
+    "primary_txn_id": "RZP_VALIDATION_000234",
+    "sub_type": "LEDGER_MISMATCH"
+  },
+  {
+    "case_id": "VALIDATION_CASE_000235",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000235",
+    "primary_txn_id": "RZP_VALIDATION_000235",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000236",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000236",
+    "primary_txn_id": "RZP_VALIDATION_000236",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000237",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000237",
+    "primary_txn_id": "RZP_VALIDATION_000237",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000238",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000238",
+    "primary_txn_id": "RZP_VALIDATION_000238",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000239",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "FEE_DEDUCTION",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000239",
+    "primary_txn_id": "RZP_VALIDATION_000239",
+    "sub_type": "STANDARD_FEE"
+  },
+  {
+    "case_id": "VALIDATION_CASE_000240",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000240",
+    "primary_txn_id": "RZP_VALIDATION_000240",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000241",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000241",
+    "primary_txn_id": "RZP_VALIDATION_000241",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000242",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000242",
+    "primary_txn_id": "RZP_VALIDATION_000242",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000243",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000243",
+    "primary_txn_id": "RZP_VALIDATION_000243",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000244",
+    "expected_action": "MONITOR",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "TIMING_LAG",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000244",
+    "primary_txn_id": "RZP_VALIDATION_000244",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000245",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000245",
+    "primary_txn_id": "RZP_VALIDATION_000245",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000246",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000246",
+    "primary_txn_id": "RZP_VALIDATION_000246",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000247",
+    "expected_action": "ESCALATE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "UNKNOWN_TRANSACTION",
+    "is_ambiguous": false,
+    "operational_reference_id": "UNK_VALIDATION_000247",
+    "primary_txn_id": null,
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000248",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000248",
+    "primary_txn_id": "RZP_VALIDATION_000248",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000249",
+    "expected_action": "MONITOR",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "TIMING_LAG",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000249",
+    "primary_txn_id": "RZP_VALIDATION_000249",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000250",
+    "expected_action": "MONITOR",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "TIMING_LAG",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000250",
+    "primary_txn_id": "RZP_VALIDATION_000250",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000251",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000251",
+    "primary_txn_id": "RZP_VALIDATION_000251",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000252",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000252",
+    "primary_txn_id": "RZP_VALIDATION_000252",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000253",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "FEE_DEDUCTION",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000253",
+    "primary_txn_id": "RZP_VALIDATION_000253",
+    "sub_type": "STANDARD_FEE"
+  },
+  {
+    "case_id": "VALIDATION_CASE_000254",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000254",
+    "primary_txn_id": "RZP_VALIDATION_000254",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000255",
+    "expected_action": "ESCALATE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "DUPLICATE",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000255",
+    "primary_txn_id": "RZP_VALIDATION_000255",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000256",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "AI_INVESTIGATOR",
+    "injected_type": "FEE_DEDUCTION",
+    "is_ambiguous": true,
+    "operational_reference_id": "RZP_VALIDATION_000256",
+    "primary_txn_id": "RZP_VALIDATION_000256",
+    "sub_type": "REFUND_ADJUSTMENT"
+  },
+  {
+    "case_id": "VALIDATION_CASE_000257",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000257",
+    "primary_txn_id": "RZP_VALIDATION_000257",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000258",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000258",
+    "primary_txn_id": "RZP_VALIDATION_000258",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000259",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000259",
+    "primary_txn_id": "RZP_VALIDATION_000259",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000260",
+    "expected_action": "ESCALATE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "UNKNOWN_TRANSACTION",
+    "is_ambiguous": false,
+    "operational_reference_id": "UNK_VALIDATION_000260",
+    "primary_txn_id": null,
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000261",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000261",
+    "primary_txn_id": "RZP_VALIDATION_000261",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000262",
+    "expected_action": "MONITOR",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "TIMING_LAG",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000262",
+    "primary_txn_id": "RZP_VALIDATION_000262",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000263",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000263",
+    "primary_txn_id": "RZP_VALIDATION_000263",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000264",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000264",
+    "primary_txn_id": "RZP_VALIDATION_000264",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000265",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000265",
+    "primary_txn_id": "RZP_VALIDATION_000265",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000266",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000266",
+    "primary_txn_id": "RZP_VALIDATION_000266",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000267",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000267",
+    "primary_txn_id": "RZP_VALIDATION_000267",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000268",
+    "expected_action": "MONITOR",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "TIMING_LAG",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000268",
+    "primary_txn_id": "RZP_VALIDATION_000268",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000269",
+    "expected_action": "ESCALATE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "UNKNOWN_TRANSACTION",
+    "is_ambiguous": false,
+    "operational_reference_id": "UNK_VALIDATION_000269",
+    "primary_txn_id": null,
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000270",
+    "expected_action": "ESCALATE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "MISSING_SETTLEMENT",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000270",
+    "primary_txn_id": "RZP_VALIDATION_000270",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000271",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000271",
+    "primary_txn_id": "RZP_VALIDATION_000271",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000272",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000272",
+    "primary_txn_id": "RZP_VALIDATION_000272",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000273",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000273",
+    "primary_txn_id": "RZP_VALIDATION_000273",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000274",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000274",
+    "primary_txn_id": "RZP_VALIDATION_000274",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000275",
+    "expected_action": "MONITOR",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "TIMING_LAG",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000275",
+    "primary_txn_id": "RZP_VALIDATION_000275",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000276",
+    "expected_action": "ESCALATE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "MISSING_SETTLEMENT",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000276",
+    "primary_txn_id": "RZP_VALIDATION_000276",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000277",
+    "expected_action": "ESCALATE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "UNKNOWN_TRANSACTION",
+    "is_ambiguous": false,
+    "operational_reference_id": "UNK_VALIDATION_000277",
+    "primary_txn_id": null,
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000278",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000278",
+    "primary_txn_id": "RZP_VALIDATION_000278",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000279",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "AI_INVESTIGATOR",
+    "injected_type": "FEE_DEDUCTION",
+    "is_ambiguous": true,
+    "operational_reference_id": "RZP_VALIDATION_000279",
+    "primary_txn_id": "RZP_VALIDATION_000279",
+    "sub_type": "REFUND_ADJUSTMENT"
+  },
+  {
+    "case_id": "VALIDATION_CASE_000280",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "AI_INVESTIGATOR",
+    "injected_type": "FEE_DEDUCTION",
+    "is_ambiguous": true,
+    "operational_reference_id": "RZP_VALIDATION_000280",
+    "primary_txn_id": "RZP_VALIDATION_000280",
+    "sub_type": "REFUND_ADJUSTMENT"
+  },
+  {
+    "case_id": "VALIDATION_CASE_000281",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000281",
+    "primary_txn_id": "RZP_VALIDATION_000281",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000282",
+    "expected_action": "MONITOR",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "TIMING_LAG",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000282",
+    "primary_txn_id": "RZP_VALIDATION_000282",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000283",
+    "expected_action": "ESCALATE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "MISSING_SETTLEMENT",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000283",
+    "primary_txn_id": "RZP_VALIDATION_000283",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000284",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000284",
+    "primary_txn_id": "RZP_VALIDATION_000284",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000285",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000285",
+    "primary_txn_id": "RZP_VALIDATION_000285",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000286",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000286",
+    "primary_txn_id": "RZP_VALIDATION_000286",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000287",
+    "expected_action": "ESCALATE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "DUPLICATE",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000287",
+    "primary_txn_id": "RZP_VALIDATION_000287",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000288",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000288",
+    "primary_txn_id": "RZP_VALIDATION_000288",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000289",
+    "expected_action": "ESCALATE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "MISSING_SETTLEMENT",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000289",
+    "primary_txn_id": "RZP_VALIDATION_000289",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000290",
+    "expected_action": "ESCALATE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "UNKNOWN_TRANSACTION",
+    "is_ambiguous": false,
+    "operational_reference_id": "UNK_VALIDATION_000290",
+    "primary_txn_id": null,
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000291",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "AI_INVESTIGATOR",
+    "injected_type": "FEE_DEDUCTION",
+    "is_ambiguous": true,
+    "operational_reference_id": "RZP_VALIDATION_000291",
+    "primary_txn_id": "RZP_VALIDATION_000291",
+    "sub_type": "REFUND_ADJUSTMENT"
+  },
+  {
+    "case_id": "VALIDATION_CASE_000292",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000292",
+    "primary_txn_id": "RZP_VALIDATION_000292",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000293",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000293",
+    "primary_txn_id": "RZP_VALIDATION_000293",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000294",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000294",
+    "primary_txn_id": "RZP_VALIDATION_000294",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000295",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000295",
+    "primary_txn_id": "RZP_VALIDATION_000295",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000296",
+    "expected_action": "MONITOR",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "TIMING_LAG",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000296",
+    "primary_txn_id": "RZP_VALIDATION_000296",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000297",
+    "expected_action": "ESCALATE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "UNKNOWN_TRANSACTION",
+    "is_ambiguous": false,
+    "operational_reference_id": "UNK_VALIDATION_000297",
+    "primary_txn_id": null,
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000298",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000298",
+    "primary_txn_id": "RZP_VALIDATION_000298",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000299",
+    "expected_action": "ESCALATE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "UNKNOWN_TRANSACTION",
+    "is_ambiguous": false,
+    "operational_reference_id": "UNK_VALIDATION_000299",
+    "primary_txn_id": null,
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000300",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000300",
+    "primary_txn_id": "RZP_VALIDATION_000300",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000301",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "AI_INVESTIGATOR",
+    "injected_type": "FEE_DEDUCTION",
+    "is_ambiguous": true,
+    "operational_reference_id": "RZP_VALIDATION_000301",
+    "primary_txn_id": "RZP_VALIDATION_000301",
+    "sub_type": "REFUND_ADJUSTMENT"
+  },
+  {
+    "case_id": "VALIDATION_CASE_000302",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000302",
+    "primary_txn_id": "RZP_VALIDATION_000302",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000303",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "FEE_DEDUCTION",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000303",
+    "primary_txn_id": "RZP_VALIDATION_000303",
+    "sub_type": "STANDARD_FEE"
+  },
+  {
+    "case_id": "VALIDATION_CASE_000304",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000304",
+    "primary_txn_id": "RZP_VALIDATION_000304",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000305",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000305",
+    "primary_txn_id": "RZP_VALIDATION_000305",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000306",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000306",
+    "primary_txn_id": "RZP_VALIDATION_000306",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000307",
+    "expected_action": "ESCALATE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "MISSING_SETTLEMENT",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000307",
+    "primary_txn_id": "RZP_VALIDATION_000307",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000308",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000308",
+    "primary_txn_id": "RZP_VALIDATION_000308",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000309",
+    "expected_action": "ESCALATE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "MISSING_SETTLEMENT",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000309",
+    "primary_txn_id": "RZP_VALIDATION_000309",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000310",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000310",
+    "primary_txn_id": "RZP_VALIDATION_000310",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000311",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000311",
+    "primary_txn_id": "RZP_VALIDATION_000311",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000312",
+    "expected_action": "ESCALATE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "MISSING_SETTLEMENT",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000312",
+    "primary_txn_id": "RZP_VALIDATION_000312",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000313",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000313",
+    "primary_txn_id": "RZP_VALIDATION_000313",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000314",
+    "expected_action": "ESCALATE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "MISSING_SETTLEMENT",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000314",
+    "primary_txn_id": "RZP_VALIDATION_000314",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000315",
+    "expected_action": "ESCALATE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "DUPLICATE",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000315",
+    "primary_txn_id": "RZP_VALIDATION_000315",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000316",
+    "expected_action": "MONITOR",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "TIMING_LAG",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000316",
+    "primary_txn_id": "RZP_VALIDATION_000316",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000317",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000317",
+    "primary_txn_id": "RZP_VALIDATION_000317",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000318",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000318",
+    "primary_txn_id": "RZP_VALIDATION_000318",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000319",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000319",
+    "primary_txn_id": "RZP_VALIDATION_000319",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000320",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000320",
+    "primary_txn_id": "RZP_VALIDATION_000320",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000321",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000321",
+    "primary_txn_id": "RZP_VALIDATION_000321",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000322",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000322",
+    "primary_txn_id": "RZP_VALIDATION_000322",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000323",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "FEE_DEDUCTION",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000323",
+    "primary_txn_id": "RZP_VALIDATION_000323",
+    "sub_type": "STANDARD_FEE"
+  },
+  {
+    "case_id": "VALIDATION_CASE_000324",
+    "expected_action": "ESCALATE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "DUPLICATE",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000324",
+    "primary_txn_id": "RZP_VALIDATION_000324",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000325",
+    "expected_action": "ESCALATE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "MISSING_SETTLEMENT",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000325",
+    "primary_txn_id": "RZP_VALIDATION_000325",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000326",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "FEE_DEDUCTION",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000326",
+    "primary_txn_id": "RZP_VALIDATION_000326",
+    "sub_type": "STANDARD_FEE"
+  },
+  {
+    "case_id": "VALIDATION_CASE_000327",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000327",
+    "primary_txn_id": "RZP_VALIDATION_000327",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000328",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000328",
+    "primary_txn_id": "RZP_VALIDATION_000328",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000329",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000329",
+    "primary_txn_id": "RZP_VALIDATION_000329",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000330",
+    "expected_action": "ESCALATE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "DUPLICATE",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000330",
+    "primary_txn_id": "RZP_VALIDATION_000330",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000331",
+    "expected_action": "ESCALATE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "UNKNOWN_TRANSACTION",
+    "is_ambiguous": false,
+    "operational_reference_id": "UNK_VALIDATION_000331",
+    "primary_txn_id": null,
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000332",
+    "expected_action": "ESCALATE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "DUPLICATE",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000332",
+    "primary_txn_id": "RZP_VALIDATION_000332",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000333",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000333",
+    "primary_txn_id": "RZP_VALIDATION_000333",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000334",
+    "expected_action": "ESCALATE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "MISSING_SETTLEMENT",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000334",
+    "primary_txn_id": "RZP_VALIDATION_000334",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000335",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000335",
+    "primary_txn_id": "RZP_VALIDATION_000335",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000336",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000336",
+    "primary_txn_id": "RZP_VALIDATION_000336",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000337",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000337",
+    "primary_txn_id": "RZP_VALIDATION_000337",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000338",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "FEE_DEDUCTION",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000338",
+    "primary_txn_id": "RZP_VALIDATION_000338",
+    "sub_type": "STANDARD_FEE"
+  },
+  {
+    "case_id": "VALIDATION_CASE_000339",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000339",
+    "primary_txn_id": "RZP_VALIDATION_000339",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000340",
+    "expected_action": "MONITOR",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "TIMING_LAG",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000340",
+    "primary_txn_id": "RZP_VALIDATION_000340",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000341",
+    "expected_action": "MONITOR",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "TIMING_LAG",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000341",
+    "primary_txn_id": "RZP_VALIDATION_000341",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000342",
+    "expected_action": "ESCALATE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "MISSING_SETTLEMENT",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000342",
+    "primary_txn_id": "RZP_VALIDATION_000342",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000343",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000343",
+    "primary_txn_id": "RZP_VALIDATION_000343",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000344",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000344",
+    "primary_txn_id": "RZP_VALIDATION_000344",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000345",
+    "expected_action": "ESCALATE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "DUPLICATE",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000345",
+    "primary_txn_id": "RZP_VALIDATION_000345",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000346",
+    "expected_action": "MONITOR",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "TIMING_LAG",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000346",
+    "primary_txn_id": "RZP_VALIDATION_000346",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000347",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000347",
+    "primary_txn_id": "RZP_VALIDATION_000347",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000348",
+    "expected_action": "ESCALATE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "DUPLICATE",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000348",
+    "primary_txn_id": "RZP_VALIDATION_000348",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000349",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000349",
+    "primary_txn_id": "RZP_VALIDATION_000349",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000350",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "FEE_DEDUCTION",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000350",
+    "primary_txn_id": "RZP_VALIDATION_000350",
+    "sub_type": "STANDARD_FEE"
+  },
+  {
+    "case_id": "VALIDATION_CASE_000351",
+    "expected_action": "ESCALATE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "UNKNOWN_TRANSACTION",
+    "is_ambiguous": false,
+    "operational_reference_id": "UNK_VALIDATION_000351",
+    "primary_txn_id": null,
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000352",
+    "expected_action": "ESCALATE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "MISSING_SETTLEMENT",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000352",
+    "primary_txn_id": "RZP_VALIDATION_000352",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000353",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000353",
+    "primary_txn_id": "RZP_VALIDATION_000353",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000354",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "FEE_DEDUCTION",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000354",
+    "primary_txn_id": "RZP_VALIDATION_000354",
+    "sub_type": "STANDARD_FEE"
+  },
+  {
+    "case_id": "VALIDATION_CASE_000355",
+    "expected_action": "ESCALATE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "MISSING_SETTLEMENT",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000355",
+    "primary_txn_id": "RZP_VALIDATION_000355",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000356",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000356",
+    "primary_txn_id": "RZP_VALIDATION_000356",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000357",
+    "expected_action": "ESCALATE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "DUPLICATE",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000357",
+    "primary_txn_id": "RZP_VALIDATION_000357",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000358",
+    "expected_action": "MONITOR",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "TIMING_LAG",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000358",
+    "primary_txn_id": "RZP_VALIDATION_000358",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000359",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000359",
+    "primary_txn_id": "RZP_VALIDATION_000359",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000360",
+    "expected_action": "ESCALATE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "MISSING_SETTLEMENT",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000360",
+    "primary_txn_id": "RZP_VALIDATION_000360",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000361",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000361",
+    "primary_txn_id": "RZP_VALIDATION_000361",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000362",
+    "expected_action": "ESCALATE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "MISSING_SETTLEMENT",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000362",
+    "primary_txn_id": "RZP_VALIDATION_000362",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000363",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000363",
+    "primary_txn_id": "RZP_VALIDATION_000363",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000364",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000364",
+    "primary_txn_id": "RZP_VALIDATION_000364",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000365",
+    "expected_action": "ESCALATE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "MISSING_SETTLEMENT",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000365",
+    "primary_txn_id": "RZP_VALIDATION_000365",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000366",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000366",
+    "primary_txn_id": "RZP_VALIDATION_000366",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000367",
+    "expected_action": "ESCALATE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "MISSING_SETTLEMENT",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000367",
+    "primary_txn_id": "RZP_VALIDATION_000367",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000368",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000368",
+    "primary_txn_id": "RZP_VALIDATION_000368",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000369",
+    "expected_action": "ESCALATE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "UNKNOWN_TRANSACTION",
+    "is_ambiguous": false,
+    "operational_reference_id": "UNK_VALIDATION_000369",
+    "primary_txn_id": null,
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000370",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000370",
+    "primary_txn_id": "RZP_VALIDATION_000370",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000371",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000371",
+    "primary_txn_id": "RZP_VALIDATION_000371",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000372",
+    "expected_action": "ESCALATE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "MISSING_SETTLEMENT",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000372",
+    "primary_txn_id": "RZP_VALIDATION_000372",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000373",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000373",
+    "primary_txn_id": "RZP_VALIDATION_000373",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000374",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000374",
+    "primary_txn_id": "RZP_VALIDATION_000374",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000375",
+    "expected_action": "MONITOR",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "TIMING_LAG",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000375",
+    "primary_txn_id": "RZP_VALIDATION_000375",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000376",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "FEE_DEDUCTION",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000376",
+    "primary_txn_id": "RZP_VALIDATION_000376",
+    "sub_type": "STANDARD_FEE"
+  },
+  {
+    "case_id": "VALIDATION_CASE_000377",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000377",
+    "primary_txn_id": "RZP_VALIDATION_000377",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000378",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000378",
+    "primary_txn_id": "RZP_VALIDATION_000378",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000379",
+    "expected_action": "ESCALATE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "MISSING_SETTLEMENT",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000379",
+    "primary_txn_id": "RZP_VALIDATION_000379",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000380",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000380",
+    "primary_txn_id": "RZP_VALIDATION_000380",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000381",
+    "expected_action": "MONITOR",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "TIMING_LAG",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000381",
+    "primary_txn_id": "RZP_VALIDATION_000381",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000382",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000382",
+    "primary_txn_id": "RZP_VALIDATION_000382",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000383",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000383",
+    "primary_txn_id": "RZP_VALIDATION_000383",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000384",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000384",
+    "primary_txn_id": "RZP_VALIDATION_000384",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000385",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000385",
+    "primary_txn_id": "RZP_VALIDATION_000385",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000386",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000386",
+    "primary_txn_id": "RZP_VALIDATION_000386",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000387",
+    "expected_action": "ESCALATE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "MISSING_SETTLEMENT",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000387",
+    "primary_txn_id": "RZP_VALIDATION_000387",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000388",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000388",
+    "primary_txn_id": "RZP_VALIDATION_000388",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000389",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "FEE_DEDUCTION",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000389",
+    "primary_txn_id": "RZP_VALIDATION_000389",
+    "sub_type": "STANDARD_FEE"
+  },
+  {
+    "case_id": "VALIDATION_CASE_000390",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000390",
+    "primary_txn_id": "RZP_VALIDATION_000390",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000391",
+    "expected_action": "ESCALATE",
+    "expected_route": "AI_INVESTIGATOR",
+    "injected_type": "FEE_DEDUCTION",
+    "is_ambiguous": true,
+    "operational_reference_id": "RZP_VALIDATION_000391",
+    "primary_txn_id": "RZP_VALIDATION_000391",
+    "sub_type": "LEDGER_MISMATCH"
+  },
+  {
+    "case_id": "VALIDATION_CASE_000392",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000392",
+    "primary_txn_id": "RZP_VALIDATION_000392",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000393",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000393",
+    "primary_txn_id": "RZP_VALIDATION_000393",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000394",
+    "expected_action": "ESCALATE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "DUPLICATE",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000394",
+    "primary_txn_id": "RZP_VALIDATION_000394",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000395",
+    "expected_action": "ESCALATE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "MISSING_SETTLEMENT",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000395",
+    "primary_txn_id": "RZP_VALIDATION_000395",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000396",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000396",
+    "primary_txn_id": "RZP_VALIDATION_000396",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000397",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000397",
+    "primary_txn_id": "RZP_VALIDATION_000397",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000398",
+    "expected_action": "MONITOR",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "TIMING_LAG",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000398",
+    "primary_txn_id": "RZP_VALIDATION_000398",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000399",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000399",
+    "primary_txn_id": "RZP_VALIDATION_000399",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000400",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000400",
+    "primary_txn_id": "RZP_VALIDATION_000400",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000401",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000401",
+    "primary_txn_id": "RZP_VALIDATION_000401",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000402",
+    "expected_action": "ESCALATE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "UNKNOWN_TRANSACTION",
+    "is_ambiguous": false,
+    "operational_reference_id": "UNK_VALIDATION_000402",
+    "primary_txn_id": null,
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000403",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000403",
+    "primary_txn_id": "RZP_VALIDATION_000403",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000404",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000404",
+    "primary_txn_id": "RZP_VALIDATION_000404",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000405",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000405",
+    "primary_txn_id": "RZP_VALIDATION_000405",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000406",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "AI_INVESTIGATOR",
+    "injected_type": "FEE_DEDUCTION",
+    "is_ambiguous": true,
+    "operational_reference_id": "RZP_VALIDATION_000406",
+    "primary_txn_id": "RZP_VALIDATION_000406",
+    "sub_type": "REFUND_ADJUSTMENT"
+  },
+  {
+    "case_id": "VALIDATION_CASE_000407",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000407",
+    "primary_txn_id": "RZP_VALIDATION_000407",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000408",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000408",
+    "primary_txn_id": "RZP_VALIDATION_000408",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000409",
+    "expected_action": "MONITOR",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "TIMING_LAG",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000409",
+    "primary_txn_id": "RZP_VALIDATION_000409",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000410",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000410",
+    "primary_txn_id": "RZP_VALIDATION_000410",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000411",
+    "expected_action": "ESCALATE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "MISSING_SETTLEMENT",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000411",
+    "primary_txn_id": "RZP_VALIDATION_000411",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000412",
+    "expected_action": "MONITOR",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "TIMING_LAG",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000412",
+    "primary_txn_id": "RZP_VALIDATION_000412",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000413",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000413",
+    "primary_txn_id": "RZP_VALIDATION_000413",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000414",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000414",
+    "primary_txn_id": "RZP_VALIDATION_000414",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000415",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000415",
+    "primary_txn_id": "RZP_VALIDATION_000415",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000416",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000416",
+    "primary_txn_id": "RZP_VALIDATION_000416",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000417",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "FEE_DEDUCTION",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000417",
+    "primary_txn_id": "RZP_VALIDATION_000417",
+    "sub_type": "STANDARD_FEE"
+  },
+  {
+    "case_id": "VALIDATION_CASE_000418",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000418",
+    "primary_txn_id": "RZP_VALIDATION_000418",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000419",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000419",
+    "primary_txn_id": "RZP_VALIDATION_000419",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000420",
+    "expected_action": "ESCALATE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "MISSING_SETTLEMENT",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000420",
+    "primary_txn_id": "RZP_VALIDATION_000420",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000421",
+    "expected_action": "ESCALATE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "MISSING_SETTLEMENT",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000421",
+    "primary_txn_id": "RZP_VALIDATION_000421",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000422",
+    "expected_action": "ESCALATE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "DUPLICATE",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000422",
+    "primary_txn_id": "RZP_VALIDATION_000422",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000423",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "AI_INVESTIGATOR",
+    "injected_type": "FEE_DEDUCTION",
+    "is_ambiguous": true,
+    "operational_reference_id": "RZP_VALIDATION_000423",
+    "primary_txn_id": "RZP_VALIDATION_000423",
+    "sub_type": "REFUND_ADJUSTMENT"
+  },
+  {
+    "case_id": "VALIDATION_CASE_000424",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000424",
+    "primary_txn_id": "RZP_VALIDATION_000424",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000425",
+    "expected_action": "MONITOR",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "TIMING_LAG",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000425",
+    "primary_txn_id": "RZP_VALIDATION_000425",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000426",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000426",
+    "primary_txn_id": "RZP_VALIDATION_000426",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000427",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000427",
+    "primary_txn_id": "RZP_VALIDATION_000427",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000428",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "FEE_DEDUCTION",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000428",
+    "primary_txn_id": "RZP_VALIDATION_000428",
+    "sub_type": "STANDARD_FEE"
+  },
+  {
+    "case_id": "VALIDATION_CASE_000429",
+    "expected_action": "ESCALATE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "MISSING_SETTLEMENT",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000429",
+    "primary_txn_id": "RZP_VALIDATION_000429",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000430",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000430",
+    "primary_txn_id": "RZP_VALIDATION_000430",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000431",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000431",
+    "primary_txn_id": "RZP_VALIDATION_000431",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000432",
+    "expected_action": "ESCALATE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "MISSING_SETTLEMENT",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000432",
+    "primary_txn_id": "RZP_VALIDATION_000432",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000433",
+    "expected_action": "ESCALATE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "DUPLICATE",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000433",
+    "primary_txn_id": "RZP_VALIDATION_000433",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000434",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000434",
+    "primary_txn_id": "RZP_VALIDATION_000434",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000435",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000435",
+    "primary_txn_id": "RZP_VALIDATION_000435",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000436",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "FEE_DEDUCTION",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000436",
+    "primary_txn_id": "RZP_VALIDATION_000436",
+    "sub_type": "STANDARD_FEE"
+  },
+  {
+    "case_id": "VALIDATION_CASE_000437",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "FEE_DEDUCTION",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000437",
+    "primary_txn_id": "RZP_VALIDATION_000437",
+    "sub_type": "STANDARD_FEE"
+  },
+  {
+    "case_id": "VALIDATION_CASE_000438",
+    "expected_action": "ESCALATE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "DUPLICATE",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000438",
+    "primary_txn_id": "RZP_VALIDATION_000438",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000439",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000439",
+    "primary_txn_id": "RZP_VALIDATION_000439",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000440",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000440",
+    "primary_txn_id": "RZP_VALIDATION_000440",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000441",
+    "expected_action": "ESCALATE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "DUPLICATE",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000441",
+    "primary_txn_id": "RZP_VALIDATION_000441",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000442",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000442",
+    "primary_txn_id": "RZP_VALIDATION_000442",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000443",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000443",
+    "primary_txn_id": "RZP_VALIDATION_000443",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000444",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000444",
+    "primary_txn_id": "RZP_VALIDATION_000444",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000445",
+    "expected_action": "ESCALATE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "UNKNOWN_TRANSACTION",
+    "is_ambiguous": false,
+    "operational_reference_id": "UNK_VALIDATION_000445",
+    "primary_txn_id": null,
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000446",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000446",
+    "primary_txn_id": "RZP_VALIDATION_000446",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000447",
+    "expected_action": "ESCALATE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "MISSING_SETTLEMENT",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000447",
+    "primary_txn_id": "RZP_VALIDATION_000447",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000448",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000448",
+    "primary_txn_id": "RZP_VALIDATION_000448",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000449",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000449",
+    "primary_txn_id": "RZP_VALIDATION_000449",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000450",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000450",
+    "primary_txn_id": "RZP_VALIDATION_000450",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000451",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000451",
+    "primary_txn_id": "RZP_VALIDATION_000451",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000452",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000452",
+    "primary_txn_id": "RZP_VALIDATION_000452",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000453",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000453",
+    "primary_txn_id": "RZP_VALIDATION_000453",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000454",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000454",
+    "primary_txn_id": "RZP_VALIDATION_000454",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000455",
+    "expected_action": "ESCALATE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "DUPLICATE",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000455",
+    "primary_txn_id": "RZP_VALIDATION_000455",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000456",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000456",
+    "primary_txn_id": "RZP_VALIDATION_000456",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000457",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000457",
+    "primary_txn_id": "RZP_VALIDATION_000457",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000458",
+    "expected_action": "ESCALATE",
+    "expected_route": "AI_INVESTIGATOR",
+    "injected_type": "FEE_DEDUCTION",
+    "is_ambiguous": true,
+    "operational_reference_id": "RZP_VALIDATION_000458",
+    "primary_txn_id": "RZP_VALIDATION_000458",
+    "sub_type": "LEDGER_MISMATCH"
+  },
+  {
+    "case_id": "VALIDATION_CASE_000459",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000459",
+    "primary_txn_id": "RZP_VALIDATION_000459",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000460",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000460",
+    "primary_txn_id": "RZP_VALIDATION_000460",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000461",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000461",
+    "primary_txn_id": "RZP_VALIDATION_000461",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000462",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000462",
+    "primary_txn_id": "RZP_VALIDATION_000462",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000463",
+    "expected_action": "MONITOR",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "TIMING_LAG",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000463",
+    "primary_txn_id": "RZP_VALIDATION_000463",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000464",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000464",
+    "primary_txn_id": "RZP_VALIDATION_000464",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000465",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000465",
+    "primary_txn_id": "RZP_VALIDATION_000465",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000466",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000466",
+    "primary_txn_id": "RZP_VALIDATION_000466",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000467",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000467",
+    "primary_txn_id": "RZP_VALIDATION_000467",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000468",
+    "expected_action": "ESCALATE",
+    "expected_route": "AI_INVESTIGATOR",
+    "injected_type": "FEE_DEDUCTION",
+    "is_ambiguous": true,
+    "operational_reference_id": "RZP_VALIDATION_000468",
+    "primary_txn_id": "RZP_VALIDATION_000468",
+    "sub_type": "LEDGER_MISMATCH"
+  },
+  {
+    "case_id": "VALIDATION_CASE_000469",
+    "expected_action": "ESCALATE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "MISSING_SETTLEMENT",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000469",
+    "primary_txn_id": "RZP_VALIDATION_000469",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000470",
+    "expected_action": "ESCALATE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "UNKNOWN_TRANSACTION",
+    "is_ambiguous": false,
+    "operational_reference_id": "UNK_VALIDATION_000470",
+    "primary_txn_id": null,
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000471",
+    "expected_action": "MONITOR",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "TIMING_LAG",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000471",
+    "primary_txn_id": "RZP_VALIDATION_000471",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000472",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000472",
+    "primary_txn_id": "RZP_VALIDATION_000472",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000473",
+    "expected_action": "ESCALATE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "MISSING_SETTLEMENT",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000473",
+    "primary_txn_id": "RZP_VALIDATION_000473",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000474",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000474",
+    "primary_txn_id": "RZP_VALIDATION_000474",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000475",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000475",
+    "primary_txn_id": "RZP_VALIDATION_000475",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000476",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000476",
+    "primary_txn_id": "RZP_VALIDATION_000476",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000477",
+    "expected_action": "MONITOR",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "TIMING_LAG",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000477",
+    "primary_txn_id": "RZP_VALIDATION_000477",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000478",
+    "expected_action": "ESCALATE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "UNKNOWN_TRANSACTION",
+    "is_ambiguous": false,
+    "operational_reference_id": "UNK_VALIDATION_000478",
+    "primary_txn_id": null,
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000479",
+    "expected_action": "ESCALATE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "UNKNOWN_TRANSACTION",
+    "is_ambiguous": false,
+    "operational_reference_id": "UNK_VALIDATION_000479",
+    "primary_txn_id": null,
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000480",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000480",
+    "primary_txn_id": "RZP_VALIDATION_000480",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000481",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000481",
+    "primary_txn_id": "RZP_VALIDATION_000481",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000482",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000482",
+    "primary_txn_id": "RZP_VALIDATION_000482",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000483",
+    "expected_action": "ESCALATE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "UNKNOWN_TRANSACTION",
+    "is_ambiguous": false,
+    "operational_reference_id": "UNK_VALIDATION_000483",
+    "primary_txn_id": null,
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000484",
+    "expected_action": "ESCALATE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "MISSING_SETTLEMENT",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000484",
+    "primary_txn_id": "RZP_VALIDATION_000484",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000485",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000485",
+    "primary_txn_id": "RZP_VALIDATION_000485",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000486",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000486",
+    "primary_txn_id": "RZP_VALIDATION_000486",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000487",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000487",
+    "primary_txn_id": "RZP_VALIDATION_000487",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000488",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000488",
+    "primary_txn_id": "RZP_VALIDATION_000488",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000489",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000489",
+    "primary_txn_id": "RZP_VALIDATION_000489",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000490",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000490",
+    "primary_txn_id": "RZP_VALIDATION_000490",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000491",
+    "expected_action": "ESCALATE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "MISSING_SETTLEMENT",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000491",
+    "primary_txn_id": "RZP_VALIDATION_000491",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000492",
+    "expected_action": "ESCALATE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "MISSING_SETTLEMENT",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000492",
+    "primary_txn_id": "RZP_VALIDATION_000492",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000493",
+    "expected_action": "ESCALATE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "MISSING_SETTLEMENT",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000493",
+    "primary_txn_id": "RZP_VALIDATION_000493",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000494",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000494",
+    "primary_txn_id": "RZP_VALIDATION_000494",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000495",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000495",
+    "primary_txn_id": "RZP_VALIDATION_000495",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000496",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000496",
+    "primary_txn_id": "RZP_VALIDATION_000496",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000497",
+    "expected_action": "MONITOR",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "TIMING_LAG",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000497",
+    "primary_txn_id": "RZP_VALIDATION_000497",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000498",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000498",
+    "primary_txn_id": "RZP_VALIDATION_000498",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000499",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000499",
+    "primary_txn_id": "RZP_VALIDATION_000499",
+    "sub_type": null
+  },
+  {
+    "case_id": "VALIDATION_CASE_000500",
+    "expected_action": "AUTO_RESOLVE",
+    "expected_route": "DETERMINISTIC",
+    "injected_type": "EXACT_MATCH",
+    "is_ambiguous": false,
+    "operational_reference_id": "RZP_VALIDATION_000500",
+    "primary_txn_id": "RZP_VALIDATION_000500",
+    "sub_type": null
+  }
+]

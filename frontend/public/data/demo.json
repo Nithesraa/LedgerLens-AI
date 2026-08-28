@@ -1,0 +1,415 @@
+{
+  "run_metadata": {
+    "workflow_version": "1",
+    "split": "DEV",
+    "evaluation_date": "2025-01-31"
+  },
+  "summary": {
+    "total_cases": 100,
+    "deterministic_cases": 95,
+    "ai_cases": 5,
+    "reconciliation_counts": {
+      "EXACT_MATCH": 60,
+      "FEE_DEDUCTION": 5,
+      "TIMING_LAG": 10,
+      "DUPLICATE": 5,
+      "MISSING_SETTLEMENT": 10,
+      "UNKNOWN_TRANSACTION": 5
+    },
+    "ai": {
+      "ai_success": 5,
+      "ai_failed": 0,
+      "ai_low_confidence": 0
+    },
+    "policy": {
+      "ALLOW": 68,
+      "DENY": 10,
+      "MONITOR": 10,
+      "ESCALATE": 12
+    },
+    "execution": {
+      "SIMULATED_EXECUTED": 68,
+      "DUPLICATE_SUPPRESSED": 0,
+      "CONFLICT_BLOCKED": 0,
+      "FAILED_SAFE": 0,
+      "ESCALATED": 22,
+      "MONITORING": 10,
+      "AUTHORIZED": 0,
+      "DENIED": 0
+    }
+  },
+  "demo_story_cases": [
+    {
+      "operational_reference_id": "RZP_DEV_000001",
+      "evidence_summary": {
+        "payment_amount": 42377.22,
+        "ledger_amount": 42377.22
+      },
+      "reconciliation": {
+        "route": "DETERMINISTIC",
+        "detected_issue": "EXACT_MATCH",
+        "subtype": null,
+        "decision_trace": {
+          "payment_exists": true,
+          "merchant_ledger_exists": true,
+          "settlement_exists": true,
+          "settlement_count": 1,
+          "duplicate_detected": false,
+          "payment_age_days": 22,
+          "settlement_within_window": null,
+          "ledger_matches_payment": true,
+          "adjustment_count": 0
+        }
+      },
+      "investigation": null,
+      "policy": {
+        "decision": "ALLOW",
+        "authorized_action": "AUTO_RESOLVE",
+        "reason": "Exact match verified.",
+        "gates": {
+          "valid_input": true,
+          "evidence_valid": true,
+          "ai_review_success": true,
+          "confidence_ok": true
+        },
+        "policy_version": "1"
+      },
+      "execution": {
+        "status": "SIMULATED_EXECUTED",
+        "simulated": true,
+        "real_financial_action": false
+      },
+      "audit": {
+        "audit_reference": "efe03f4ad3e15f40d4cc4e69819e3a9c60e71a18dce262825d721c0a1c3265c0"
+      }
+    },
+    {
+      "operational_reference_id": "RZP_DEV_000005",
+      "evidence_summary": {
+        "payment_amount": 27840.52,
+        "ledger_amount": 27840.52
+      },
+      "reconciliation": {
+        "route": "DETERMINISTIC",
+        "detected_issue": "FEE_DEDUCTION",
+        "subtype": "STANDARD_FEE",
+        "decision_trace": {
+          "payment_exists": true,
+          "merchant_ledger_exists": true,
+          "settlement_exists": true,
+          "settlement_count": 1,
+          "duplicate_detected": false,
+          "payment_age_days": 54,
+          "settlement_within_window": null,
+          "ledger_matches_payment": true,
+          "adjustment_count": 0
+        }
+      },
+      "investigation": null,
+      "policy": {
+        "decision": "ALLOW",
+        "authorized_action": "AUTO_RESOLVE",
+        "reason": "Standard fee deduction verified.",
+        "gates": {
+          "valid_input": true,
+          "evidence_valid": true,
+          "ai_review_success": true,
+          "confidence_ok": true
+        },
+        "policy_version": "1"
+      },
+      "execution": {
+        "status": "SIMULATED_EXECUTED",
+        "simulated": true,
+        "real_financial_action": false
+      },
+      "audit": {
+        "audit_reference": "e17346c88b33326f53a232e9a5ecb75ebbb601ae357ea78c49b978d68dc018ef"
+      }
+    },
+    {
+      "operational_reference_id": "RZP_DEV_000008",
+      "evidence_summary": {
+        "payment_amount": 2926.19,
+        "ledger_amount": 2926.19
+      },
+      "reconciliation": {
+        "route": "DETERMINISTIC",
+        "detected_issue": "TIMING_LAG",
+        "subtype": null,
+        "decision_trace": {
+          "payment_exists": true,
+          "merchant_ledger_exists": true,
+          "settlement_exists": false,
+          "settlement_count": 0,
+          "duplicate_detected": false,
+          "payment_age_days": 3,
+          "settlement_within_window": true,
+          "ledger_matches_payment": true,
+          "adjustment_count": 0
+        }
+      },
+      "investigation": null,
+      "policy": {
+        "decision": "MONITOR",
+        "authorized_action": "MONITOR",
+        "reason": "Timing lag is monitored.",
+        "gates": {
+          "valid_input": true,
+          "evidence_valid": true,
+          "ai_review_success": true,
+          "confidence_ok": true
+        },
+        "policy_version": "1"
+      },
+      "execution": {
+        "status": "MONITORING",
+        "simulated": true,
+        "real_financial_action": false
+      },
+      "audit": {
+        "audit_reference": "44ab5d45a416a0c5127eb7bd1283988f6488b9713ef820aa9548cd9c37a3cad2"
+      }
+    },
+    {
+      "operational_reference_id": "RZP_DEV_000003",
+      "evidence_summary": {
+        "payment_amount": 37795.91,
+        "ledger_amount": 37795.91
+      },
+      "reconciliation": {
+        "route": "DETERMINISTIC",
+        "detected_issue": "MISSING_SETTLEMENT",
+        "subtype": null,
+        "decision_trace": {
+          "payment_exists": true,
+          "merchant_ledger_exists": true,
+          "settlement_exists": false,
+          "settlement_count": 0,
+          "duplicate_detected": false,
+          "payment_age_days": 15,
+          "settlement_within_window": false,
+          "ledger_matches_payment": true,
+          "adjustment_count": 0
+        }
+      },
+      "investigation": null,
+      "policy": {
+        "decision": "ESCALATE",
+        "authorized_action": "ESCALATE",
+        "reason": "Missing settlements require escalation.",
+        "gates": {
+          "valid_input": true,
+          "evidence_valid": true,
+          "ai_review_success": true,
+          "confidence_ok": true
+        },
+        "policy_version": "1"
+      },
+      "execution": {
+        "status": "ESCALATED",
+        "simulated": true,
+        "real_financial_action": false
+      },
+      "audit": {
+        "audit_reference": "2bf763913560fc8d145fcf22f5411b5a9d50d6b71abe9a8c92c19d708f02eeaa"
+      }
+    },
+    {
+      "operational_reference_id": "RZP_DEV_000025",
+      "evidence_summary": {
+        "payment_amount": 63649.56,
+        "ledger_amount": 63649.56
+      },
+      "reconciliation": {
+        "route": "DETERMINISTIC",
+        "detected_issue": "DUPLICATE",
+        "subtype": null,
+        "decision_trace": {
+          "payment_exists": true,
+          "merchant_ledger_exists": true,
+          "settlement_exists": true,
+          "settlement_count": 2,
+          "duplicate_detected": true,
+          "payment_age_days": 56,
+          "settlement_within_window": null,
+          "ledger_matches_payment": true,
+          "adjustment_count": 0
+        }
+      },
+      "investigation": null,
+      "policy": {
+        "decision": "DENY",
+        "authorized_action": "ESCALATE",
+        "reason": "Duplicate transactions cannot be auto-resolved.",
+        "gates": {
+          "valid_input": true,
+          "evidence_valid": true,
+          "ai_review_success": true,
+          "confidence_ok": true
+        },
+        "policy_version": "1"
+      },
+      "execution": {
+        "status": "ESCALATED",
+        "simulated": true,
+        "real_financial_action": false
+      },
+      "audit": {
+        "audit_reference": "c1ec504627db98dd5c4b03f4347e10a1574eede96469479b39dcb83af62cf9e7"
+      }
+    },
+    {
+      "operational_reference_id": "UNK_DEV_000024",
+      "evidence_summary": {
+        "payment_amount": 0.0,
+        "ledger_amount": 0.0
+      },
+      "reconciliation": {
+        "route": "DETERMINISTIC",
+        "detected_issue": "UNKNOWN_TRANSACTION",
+        "subtype": null,
+        "decision_trace": {
+          "payment_exists": false,
+          "merchant_ledger_exists": false,
+          "settlement_exists": true,
+          "settlement_count": 1,
+          "duplicate_detected": false,
+          "payment_age_days": null,
+          "settlement_within_window": null,
+          "ledger_matches_payment": null,
+          "adjustment_count": 0
+        }
+      },
+      "investigation": null,
+      "policy": {
+        "decision": "DENY",
+        "authorized_action": "ESCALATE",
+        "reason": "Unknown transactions cannot be auto-resolved.",
+        "gates": {
+          "valid_input": true,
+          "evidence_valid": true,
+          "ai_review_success": true,
+          "confidence_ok": true
+        },
+        "policy_version": "1"
+      },
+      "execution": {
+        "status": "ESCALATED",
+        "simulated": true,
+        "real_financial_action": false
+      },
+      "audit": {
+        "audit_reference": "d215542d703d6042cc28e3597faa52b8bfd601d8e8c8a6fae270ff3cd14dd41a"
+      }
+    },
+    {
+      "operational_reference_id": "RZP_DEV_000048",
+      "evidence_summary": {
+        "payment_amount": 71968.87,
+        "ledger_amount": 71968.87
+      },
+      "reconciliation": {
+        "route": "AI_INVESTIGATOR",
+        "detected_issue": null,
+        "subtype": null,
+        "decision_trace": {
+          "payment_exists": true,
+          "merchant_ledger_exists": true,
+          "settlement_exists": true,
+          "settlement_count": 1,
+          "duplicate_detected": false,
+          "payment_age_days": 32,
+          "settlement_within_window": null,
+          "ledger_matches_payment": true,
+          "adjustment_count": 1
+        }
+      },
+      "investigation": {
+        "status": "AI_REVIEW_COMPLETE",
+        "subtype": "REFUND_ADJUSTMENT",
+        "confidence_score": 0.95,
+        "recommended_action": "AUTO_RESOLVE",
+        "reasoning": "Adjustment accounts for the missing funds.",
+        "evidence_references": [
+          "ADJ_DEV_000048",
+          "STL_DEV_000048_A"
+        ]
+      },
+      "policy": {
+        "decision": "ALLOW",
+        "authorized_action": "AUTO_RESOLVE",
+        "reason": "Refund adjustment authorized.",
+        "gates": {
+          "valid_input": true,
+          "evidence_valid": true,
+          "ai_review_success": true,
+          "confidence_ok": true
+        },
+        "policy_version": "1"
+      },
+      "execution": {
+        "status": "SIMULATED_EXECUTED",
+        "simulated": true,
+        "real_financial_action": false
+      },
+      "audit": {
+        "audit_reference": "a5333211cf62695136a0ae5e357ce471aae67d199e5930efa97fd2e11f7f030c"
+      }
+    },
+    {
+      "operational_reference_id": "RZP_DEV_000060",
+      "evidence_summary": {
+        "payment_amount": 54045.73,
+        "ledger_amount": 54044.2
+      },
+      "reconciliation": {
+        "route": "AI_INVESTIGATOR",
+        "detected_issue": null,
+        "subtype": null,
+        "decision_trace": {
+          "payment_exists": true,
+          "merchant_ledger_exists": true,
+          "settlement_exists": true,
+          "settlement_count": 1,
+          "duplicate_detected": false,
+          "payment_age_days": 43,
+          "settlement_within_window": null,
+          "ledger_matches_payment": false,
+          "adjustment_count": 0
+        }
+      },
+      "investigation": {
+        "status": "AI_REVIEW_COMPLETE",
+        "subtype": "LEDGER_MISMATCH",
+        "confidence_score": 0.95,
+        "recommended_action": "ESCALATE",
+        "reasoning": "Payment and ledger amounts mismatch.",
+        "evidence_references": [
+          "RZP_DEV_000060",
+          "LEDGER_DEV_000060"
+        ]
+      },
+      "policy": {
+        "decision": "ESCALATE",
+        "authorized_action": "ESCALATE",
+        "reason": "Ledger mismatch cannot be auto-resolved.",
+        "gates": {
+          "valid_input": true,
+          "evidence_valid": true,
+          "ai_review_success": true,
+          "confidence_ok": true
+        },
+        "policy_version": "1"
+      },
+      "execution": {
+        "status": "ESCALATED",
+        "simulated": true,
+        "real_financial_action": false
+      },
+      "audit": {
+        "audit_reference": "8b61679aa2078266d6fe754ef314ce558999829d1d8a0cdcf19ef8f1e5a6f4b0"
+      }
+    }
+  ]
+}
